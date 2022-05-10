@@ -1,1 +1,1 @@
-# kursdarbs
+# kursadarbs
