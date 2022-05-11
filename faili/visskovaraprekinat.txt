@@ -1,0 +1,4 @@
+Figūras kuras var aprekinat:
+1.taisntura laukums
+2.tristūra laukums
+3.apļa laukums
