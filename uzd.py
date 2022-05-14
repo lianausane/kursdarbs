@@ -24,11 +24,16 @@ while apj < 5 or apj > 50:
         print("Ievadīts nepareiz apjoms! Ievadi vēlreiz.")
     apj = int(input("Ievadi apjomu no 5 līdz 50: ")) 
 
-print("Kādas figūras laukumu aprēķināsi?")
-print("Ja taisnustūra tad ievadi 1")
-print("Ja tristūra tad ievadi 2 ")
-print("Ja apļa tad ievadi 3")
-kf = int(input("kuru figūras laukumu apreķināsim: "))
+print("Kādas figūras aprēķināsi?")
+print("Ja taisnustūra laukumu tad ievadi 1")
+print("Ja tristūra laukumu tad ievadi 2 ")
+print("Ja apļa laukumu tad ievadi 3")
+print("Ja taisnustūra perimetru tad ievadi 4")
+print("Ja tristūra perimetu tad ievadi 5 ")
+print("Ja apļa diametru tad ievadi 6")
+print("Ja riņķa līnijas garumu tad ievadi 7")
+print("Ja trapeces laukumu tad ievadi 8")
+kf = int(input("kuru figūras funkciju apreķināsim: "))
 uzd = int(input("Cik tādus uzdevumus pildi: "))
 if kf == 1:
     for i in range(uzd):
@@ -68,7 +73,73 @@ elif kf == 3:
             print("Neparezi!")
             n+=1
     print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
-            
+elif kf == 4:
+    for i in range(uzd):
+        l = random.randrange(1, apj)
+        k = random.randrange(1, apj)
+        print(f"Kāds ir taisnustūra perimetrs ja tā malu garums ir šāds: {l} , {k}")
+        atb = int(input("perimetrs ir: "))
+        if atb == l+k*2:
+            print("Parezi!")
+            p+=1
+        else:
+            print("Neparezi!")
+            n+=1
+    print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")        
+elif kf == 5:
+    for i in range(uzd):
+        a = random.randrange(1, apj)
+        b = random.randrange(1, apj)
+        c = random.randrange(1, apj)
+        print(f"Kāds ir taisnustūra perimetrs ja tā malu garums ir šāds: {a} , {b} , {c}")
+        atb = int(input("perimetrs ir: "))
+        if atb == a+b+c:
+            print("Parezi!")
+            p+=1
+        else:
+            print("Neparezi!")
+            n+=1
+    print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")        
+elif kf == 6:
+    for i in range(uzd):
+        e = random.randrange(1, apj)
+        print(f"Kāds ir apļa diamets, ja tā radius ir {e}")
+        atb =float(input("Diametra garums ir: "))
+        if atb == e+e:
+            print("Parezi!")
+            p+=1
+        else:
+            print("Neparezi!")
+            n+=1
+    print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")        
+elif kf == 7:
+    for i in range(uzd):
+        e = random.randrange(1, apj)
+        print(f"Kāds ir riņķa līnijas garums, ja tā radius ir {e} pi vertību ņem kā 3.14")
+        atb =float(input("Riņķa līnijas garums ir: "))
+        if atb == 2*3.14*e:
+            print("Parezi!")
+            p+=1
+        else:
+            print("Neparezi!")
+            n+=1
+    print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")           
+elif kf == 8:
+    for i in range(uzd):
+        a = random.randrange(1, apj)
+        b = random.randrange(1, apj)
+        h = random.randrange(1, apj)
+        print(f"Kāds ir trapeces laukums, ja tā pamatu garumi ir {a} , {b}  un augstums ir {h} ")
+        atb =float(input("Laukums ir: "))
+        if atb == a+b/2*h:
+            print("Parezi!")
+            p+=1
+        else:
+            print("Neparezi!")
+            n+=1 
+    print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")                            
+
+
 
     
 
