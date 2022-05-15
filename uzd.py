@@ -24,6 +24,20 @@ while apj < 5 or apj > 50:
         print("Ievadīts nepareiz apjoms! Ievadi vēlreiz.")
     apj = int(input("Ievadi apjomu no 5 līdz 50: ")) 
 
+rows, cols =(10,10)
+arr=[]
+for i in range(rows):
+    col=[]
+    for j in range(cols):
+        col.append((i+1)*(j+1))
+    arr.append(col)
+
+print("Reizrēķina tabula sakrīt ar taisnustūru laukumu rezultātiem tādēļ varbūt noderēs šī tabula:")  
+for i in range(rows):
+    for j in range(cols):
+        print(arr[i][j], end="\t")
+    print()  
+
 print("Kādas figūras aprēķināsi?")
 print("Ja taisnustūra laukumu tad ievadi 1")
 print("Ja tristūra laukumu tad ievadi 2 ")
