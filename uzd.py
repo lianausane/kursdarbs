@@ -13,9 +13,10 @@ MAPE = "faili/"
 fails = MAPE + "aprekini.txt"
 f = open(fails, 'a', encoding="UTF-8")
 
+print()
 print("Sveiki parbaudīsim vai vari aprēķināt dažādu figūru laukumu.")
 print("Kādā apjomā veiksim darbu?")
-
+print( )
 p = 0
 n = 0
 apj = 0
@@ -160,8 +161,94 @@ else:
     u = int(input("Vai vēlaties pildīt vēlreiz? Ja pildīsiet vēlrei ievadi-1: "))
 
     
+    
+print("Ja neizdodas aprēķināt kādu figūru var mēģināt aprēķinat ar šo  programu.")
+import liana
+
+x = int(input("Izvēlies vienu no figūrām, kuru aprēķināsi: riņķis-1 , trijstūris-2 , taisnstūris-3: "))
+if x==1:
+    y = int(input("Izvēlies, ko aprēķināsi;laukums-1, riņkā līnijas garums-2 , diametrs-3: "))
+    if y==1:
+        a = int(input("Ievadi rādiusu:"))
+        print("Laukums ir", liana.rinka_lauk(a))
+    elif y==2:
+        b = int(input("Ievadi rādiusu:"))
+        print("Perimetrs ir", liana.rinka_perimets(b))
+    else:
+        c = int(input("Ievadi rādiusu:"))
+        print("Diametrs ir", liana.rinka_diamet(c))
+elif x == 2:
+    m = int(input("Izvēlies, ko aprēķināsi;laukums-1, perimetrs-2 :  "))
+    if m==1:
+        d = int(input("Ievadi trijstrūra augstumu(h): "))
+        k = int(input("Ievadi trijstrūra malas garumu: "))
+        print("Laukums ir", liana.trijs_laukums(d, k))
+    else:
+        a = int(input("Ievadi trijstrūra pirmo malu: "))
+        b = int(input("Ievadi trijstrūra otro malu: ")) 
+        c = int(input("Ievadi trijstrūra trešo malu: "))
+        print("Perimetrs ir", liana.trijs_perimetrs(a, b, c))
+else:
+    g = int(input("Izvēlies, ko aprēķināsi;laukums-1, perimetrs-2, :  ")) 
+    if g == 1:
+        u = int(input("Ievadi taisnustūta īsāko malu: "))
+        t = int(input("Ievadi taisnustūta garāko malu: "))
+        print("Laukums ir", liana.cetrusturis_laukums(u, t))
+    else: 
+        u = int(input("Ievadi taisnustūta īsāko malu: "))
+        t = int(input("Ievadi taisnustūta garāko malu: "))
+        print("Perimetrs ir", liana.cetrusturis_perimetrs(u, t))
 
 
+
+print( )
+a = "Uzdevums- Izveidot sarakstu kurā ir noteikts skaits skailū un šo skaitu ievada cilvēks, programma aprēkina videjo aritmētisko, nosaka cik ir pāra un nepāra  skaiļu, cik ir pozitīvi un cik negatīvi skaiļi, skaiļus sakotnējā saraktā saliek pēc kartas augošā secībā jaunā sarakstā  " 
+
+print(a)
+print( )
+sk = []
+n = -1
+while n < 20 or n > 50:
+    n = int(input("Cik skaitļu būs saraksta? (Ievadiet skaitli intervālā no 20 līdz 50.)"))
+    if n < 20:
+        print("šis skaitlis neder,jo ir mazākas par 20. Ievadi vēlreiz:")
+    elif n > 50:
+        print("šis skaitlis neder, jo ir lielāks par 50. Ievadi vēlreiz:")
+import random
+summa = 0
+for i in range(n):
+    a = random.randrange(-100, 100)
+    summa += a
+    
+    sk.append(a)
+print(sk)
+print("Visu skaitļu suma ir ", summa)
+print()
+o = int(input("Kāda ir vidējā aritmētiskā šajam saratam: "))
+if o == summa/n:
+    print("Tava atbilde ir pareiza malacis.")
+
+m = min(sk)
+l = max(sk)
+print("Mazākā vertība sarakstā ir", m)
+print("Lielākā vērtība sarakstā ir", l)
+x=int(input("Ievadiet skaitli! kuru pievienosim izveidotajam sarakstas intervālā no -100 līdz 100:"))
+sk.append(x)   
+
+print("Jauniegūtais saraksts", sk)
+sk.sort()
+print("Izvadu sakartotu sarakstu augošā secībā", sk)
+
+ne = []
+pa = []
+for num in sk:
+    if num % 2 == 0:
+        pa.append(num)
+    else:
+        ne.append(num,)    
+print("Nepāra skaitļi ir šadi ", ne)
+print()
+print("Pāra skaitļi ir šadi ", pa)
 
 
 
