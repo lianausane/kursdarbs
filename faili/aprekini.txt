@@ -1,3 +1,21 @@
 kuru figūras funkciju apreķināsim: 
 Cik tādus uzdevumus pildi: 
 Kāds ir taisnustūra laukums ja tā malu garums ir šāds: 4 , 6
+kuru figūras funkciju apreķināsim: 
+Cik tādus uzdevumus pildi: 
+Kāds ir taisnustūra laukums ja tā malu garums ir šāds: 1 , 4
+Laukums ir: 4
+Parezi!
+Kāds ir taisnustūra laukums ja tā malu garums ir šāds: 2 , 5
+Laukums ir: 10
+Parezi!
+No 2 piemēriem pareizi bija 2 uzdevumi un nepareizs 0. Kopumā sekmīgi tika veikti 100.0%
+kuru figūras funkciju apreķināsim: 
+Cik tādus uzdevumus pildi: 
+Kāds ir taisnustūra laukums ja tā malu garums ir šāds: 1 , 6
+Laukums ir: 6
+Parezi!
+Kāds ir taisnustūra laukums ja tā malu garums ir šāds: 9 , 1
+Laukums ir: 9
+Parezi!
+No 2 piemēriem pareizi bija 2 uzdevumi un nepareizs 0. Kopumā sekmīgi tika veikti 100.0%
