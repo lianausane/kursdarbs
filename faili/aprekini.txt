@@ -1,0 +1,3 @@
+kuru figūras funkciju apreķināsim: 
+Cik tādus uzdevumus pildi: 
+Kāds ir taisnustūra laukums ja tā malu garums ir šāds: 4 , 6
