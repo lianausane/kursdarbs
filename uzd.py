@@ -6,6 +6,7 @@
 Programma pārbaudīs vai lietotājs ir ievadījis pareizi apjomu.
 skaitīt pareizās atbildes 
 pajautāt cik reizes šadas darbibas pildīs
+Veic aprēķinus jūsu figūrām
 """
 import random
 import math
@@ -250,6 +251,9 @@ elif x == 3:
 else:
     print("Mainīgais kuru mēģinat izvadīt nav definēts!")        
 
+print("Papildus veidota datu struktūra tuple")
+tuple = ("tristūris", "taisnstūris", "aplis", )
+print(tuple)
  
 
 
