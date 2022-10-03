@@ -19,3 +19,32 @@ Kāds ir taisnustūra laukums ja tā malu garums ir šāds: 9 , 1
 Laukums ir: 9
 Parezi!
 No 2 piemēriem pareizi bija 2 uzdevumi un nepareizs 0. Kopumā sekmīgi tika veikti 100.0%
+kuru figūras funkciju apreķināsim: 
+Cik tādus uzdevumus pildi: 
+Kāds ir laukums tristūrim ja tā malas garums ir 3 un augstums pret to malu ir 7
+Laukums ir: 21
+Neparezi!
+No 1 piemēriem pareizi bija 0 uzdevumi un nepareizs 1. Kopumā sekmīgi tika veikti 0.0%
+kuru figūras funkciju apreķināsim: 
+Cik tādus uzdevumus pildi: 
+Kāds ir taisnustūra perimetrs ja tā malu garums ir šāds: 2 , 4
+Perimetrs ir: 12
+Neparezi!
+Kāds ir taisnustūra perimetrs ja tā malu garums ir šāds: 8 , 9
+Perimetrs ir: 34
+Neparezi!
+No 2 piemēriem pareizi bija 0 uzdevumi un nepareizs 2. Kopumā sekmīgi tika veikti 0.0%
+kuru figūras funkciju apreķināsim: 
+Cik tādus uzdevumus pildi: 
+Laukums ir:22.0
+Neparezi!
+No 1 piemēriem pareizi bija 0 uzdevumi un nepareizs 1. Kopumā sekmīgi tika veikti 0.0%
+kuru figūras funkciju apreķināsim: 
+Cik tādus uzdevumus pildi: 
+Kāds ir laukums tristūrim ja tā malas garums ir 1 un augstums pret to malu ir 2
+Laukums ir: 2
+Neparezi!
+Kāds ir laukums tristūrim ja tā malas garums ir 3 un augstums pret to malu ir 4
+Laukums ir: 2
+Neparezi!
+No 2 piemēriem pareizi bija 0 uzdevumi un nepareizs 2. Kopumā sekmīgi tika veikti 0.0%
