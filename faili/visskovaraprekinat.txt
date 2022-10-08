@@ -1,9 +1,9 @@
 Figūras kuras var aprekinat:
-1.taisntura laukums
-2.tristūra laukums
-3.apļa laukums
-4.taisntūra perimetrs
-5.tristūra perimetu
-6.apļa diamets
-7.riņķa līnijas garumu
-8.trapeces laukumu
+1.Taisntura laukums
+2.Tristūra laukums
+3.Apļa laukums
+4.Taisntūra perimetrs
+5.Tristūra perimetu
+6.Apļa diamets
+7.Riņķa līnijas garumu
+8.Trapeces laukumu
