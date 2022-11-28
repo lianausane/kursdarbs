@@ -1,0 +1,3 @@
+Nesaprotu kā ir domāts teikums- "Kādā apjomā veiksim darbu?"
+Ir gramatiskas kļūdas- "nepareiz", "Cik tādus uzdevumus pildi", "apreķinat"
+Programmai nav datu aizsardzības, tā nestrādā tālāk, kad ievadīts nepareizs skaitlis
