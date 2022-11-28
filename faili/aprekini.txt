@@ -48,3 +48,5 @@ Kāds ir laukums tristūrim ja tā malas garums ir 3 un augstums pret to malu ir
 Laukums ir: 2
 Neparezi!
 No 2 piemēriem pareizi bija 0 uzdevumi un nepareizs 2. Kopumā sekmīgi tika veikti 0.0%
+kuru figūras funkciju apreķināsim: 
+Cik tādus uzdevumus pildi: 
