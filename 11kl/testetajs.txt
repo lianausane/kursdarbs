@@ -1,3 +1,6 @@
+28.11.2022.
 Nesaprotu kā ir domāts teikums- "Kādā apjomā veiksim darbu?"
 Ir gramatiskas kļūdas- "nepareiz", "Cik tādus uzdevumus pildi", "apreķinat"
 Programmai nav datu aizsardzības, tā nestrādā tālāk, kad ievadīts nepareizs skaitlis
+05.12.2022.
+Pirms liec kaut ko ievadīt lietotājam, uzraksti tekstu, kas sasveicinās ar lietotāju un īsumā iepazīstina ar programmu!
