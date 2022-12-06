@@ -4,3 +4,6 @@ Ir gramatiskas kļūdas- "nepareiz", "Cik tādus uzdevumus pildi", "apreķinat"
 Programmai nav datu aizsardzības, tā nestrādā tālāk, kad ievadīts nepareizs skaitlis
 05.12.2022.
 Pirms liec kaut ko ievadīt lietotājam, uzraksti tekstu, kas sasveicinās ar lietotāju un īsumā iepazīstina ar programmu!
+06.12.2022.
+Vēl joprojām ir gramatikas kļūdas.
+Man izmet kļūdu 60 rindiņā un programma tālāk nestrādā.
