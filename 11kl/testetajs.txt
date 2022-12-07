@@ -7,3 +7,5 @@ Pirms liec kaut ko ievadīt lietotājam, uzraksti tekstu, kas sasveicinās ar li
 06.12.2022.
 Vēl joprojām ir gramatikas kļūdas.
 Man izmet kļūdu 60 rindiņā un programma tālāk nestrādā.
+07.12.2022.
+Iesaku izveidot datu pārbaudi.
