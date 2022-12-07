@@ -53,6 +53,7 @@ while apj < 5 or apj > 50:
         print("Ievadīts nepareiz apjoms! Ievadi vēlreiz.")
     apj = int(input("Ievadi apjomu no 5 līdz 50: ")) 
 
+
 rows, cols =(10,10)
 arr=[]
 for i in range(rows):
@@ -77,8 +78,8 @@ for r in k:
 
 
 
-kf = int(input("kuru figūras funkciju apreķināsim: "))
-f.write("kuru figūras funkciju apreķināsim: " + "\n")
+kf = int(input("Kuru figūras funkciju apreķināsim: "))
+f.write("Kuru figūras funkciju apreķināsim: " + "\n")
 uzd = int(input("Cik tādus uzdevumus pildi: "))
 f.write("Cik tādus uzdevumus pildi: " + "\n")
 try:
