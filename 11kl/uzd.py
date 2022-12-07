@@ -17,18 +17,26 @@ f = open(fails, 'a', encoding="UTF-8")
 failss = MAPE + "visskovaraprekinat.txt"
 k = open(failss,'r', encoding="UTF-8" )
 
+"""
 f = True
 while f:
     try:
-        ievade =float (input ("Tevadi skaitil: "))
-        print (ievade/2)
-        print (ievade**3)
-        f = False 
-# te var büt daudz dazadas darbibas
-    except:
-        print("Nepareizi levaddati")
-        print ("piemeram: Drikst levadit tikai 1, 2, 3, 4, 5")
+        ievade = int(input ("Ievadi skaitil: "))
+        print(ievade)
+        f = False   
+    except: 
+        print("Mainīgais kuru mēģinat izvadīt nav definēts!")
+
+   # try:
+    #    ievade =float (input ("Ievadi skaitil: "))
+     #   print (ievade/2)
+      #  print (ievade**3)
+       # f = False 
+    #except:
+     #   print("Nepareizi levaddati")
+      #  print ("piemeram: Drikst levadit tikai 1, 2, 3, 4, 5")
             
+"""
 
 
 
@@ -36,6 +44,7 @@ print()
 print("Sveiki parbaudīsim vai vari aprēķināt dažādu figūru laukumu.")
 print("Kādā apjomā veiksim darbu?")
 print( )
+
 p = 0
 n = 0
 apj = 0
