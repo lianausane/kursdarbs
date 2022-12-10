@@ -1,11 +1,16 @@
 28.11.2022.
 Nesaprotu kā ir domāts teikums- "Kādā apjomā veiksim darbu?"
+Liāna - tas ir domāts tā cik lieli būs skaitļi kurā tiks veikti uzdevumi.
 Ir gramatiskas kļūdas- "nepareiz", "Cik tādus uzdevumus pildi", "apreķinat"
+Liāna - laboju gramtiskas kļudas cik atradu, bet man t agruti iet ar kļūdu meklēšanu.
 Programmai nav datu aizsardzības, tā nestrādā tālāk, kad ievadīts nepareizs skaitlis
+
 05.12.2022.
 Pirms liec kaut ko ievadīt lietotājam, uzraksti tekstu, kas sasveicinās ar lietotāju un īsumā iepazīstina ar programmu!
+Liāna - Tas jau ir izdarīts.
 06.12.2022.
 Vēl joprojām ir gramatikas kļūdas.
+Liāna - jau laboju kļudas.
 Man izmet kļūdu 60 rindiņā un programma tālāk nestrādā.
 07.12.2022.
 Iesaku izveidot datu pārbaudi.

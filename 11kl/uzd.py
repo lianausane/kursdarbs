@@ -68,6 +68,24 @@ for i in range(rows):
         print(arr[i][j], end="\t")
     print()  
  
+vārdnīca ={
+    "Taisnstura laukuma aprēķināšanas formula" : "S=a*b",
+    "Trijtūra laukuma aprēķināšanas formula" : "S=a*h/2",
+    "Apļa laukuma aprēķināšanas formula" : "S=π*r*2",
+    "Taisnstūra perimetra aprēķināšanas formula" : "P = 2*(a+b)",
+    "Trijstūra perimeta aprēķināšanas formula" : "P = a+b+c",
+    "Apļa diametra aprēķināšanas formula" : "d = 2*r",
+    "Riņķa līnijas garuma aprēķināšanas formula" : "C=2*π*r",
+    "Trapeces laukuma aprēķināšanas formula" : "S=((a+b)*h)/2",
+}
+
+print( )
+print("Šis formulas varētu noderēt, pievērs uzmanību!")
+for key, value in vārdnīca.items():
+    print(f"{key} - {value}")
+
+print( )
+
 sk = [] 
 for r in k:
     # rindas vērtība tiek pievienota sarakstam
@@ -80,15 +98,23 @@ for r in k:
 
 kf = int(input("Kuru figūras funkciju apreķināsim: "))
 f.write("Kuru figūras funkciju apreķināsim: " + "\n")
-uzd = int(input("Cik tādus uzdevumus pildi: "))
-f.write("Cik tādus uzdevumus pildi: " + "\n")
+uzd = int(input("Cik tādus uzdevumus pildisiet: "))
+f.write("Cik tādus uzdevumus pildisiet: " + "\n")
 try:
     print(uzd)  
 except: 
     print("Mainīgais kuru mēģinat izvadīt nav definēts!")
-
-
-
+    
+"""
+f = True
+while f:
+    try:
+        ievade = int(input ("Ievadi skaitil: "))
+        print(ievade)
+        f = False   
+    except: 
+        print("Mainīgais kuru mēģinat izvadīt nav definēts!")
+"""
 if kf == 1:
     for i in range(uzd):
         a = random.randrange(1, apj)
@@ -98,12 +124,12 @@ if kf == 1:
         atb = int(input("Laukums ir: "))
         f.write("Laukums ir: " + str(atb) + "\n")
         if atb == a * b:
-            print("Parezi!")
-            f.write("Parezi!" + "\n")
+            print("Pareizi!")
+            f.write("Pareizi!" + "\n")
             p+=1
         else:
-            print("Neparezi!")
-            f.write("Neparezi!" + "\n")
+            print("Nepareizi!")
+            f.write("Nepareizi!" + "\n")
             n+=1
     print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%") 
     f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")           
@@ -116,12 +142,12 @@ elif kf == 2:
         atb =int(input("Laukums ir: "))
         f.write("Laukums ir: " + str(atb) + "\n")
         if atb == c*d/2:
-           print("Parezi!")
-           f.write("Parezi!" + "\n")
+           print("Pareizi!")
+           f.write("Pareizi!" + "\n")
            p+=1
         else:
-            print("Neparezi!")
-            f.write("Neparezi!" + "\n")
+            print("Nepareizi!")
+            f.write("Nepareizi!" + "\n")
             n+=1
     print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
     f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")
@@ -133,12 +159,12 @@ elif kf == 3:
         atb =float(input("Laukums ir: "))
         f.write("Laukums ir:" + str(atb) + "\n")
         if atb == e*e*3.14:
-            print("Parezi!")
-            f.write("Parezi!" + "\n")
+            print("Pareizi!")
+            f.write("Pareizi!" + "\n")
             p+=1
         else:
-            print("Neparezi!")
-            f.write("Neparezi!" + "\n")
+            print("Nepareizi!")
+            f.write("Nepareizi!" + "\n")
             n+=1
     print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
     f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")
@@ -155,8 +181,8 @@ elif kf == 4:
             f.write("Parezi!" + "\n")
             p+=1
         else:
-            print("Neparezi!")
-            f.write("Neparezi!" + "\n")
+            print("Nepareizi!")
+            f.write("Nepareizi!" + "\n")
             n+=1
     print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
     f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")        
@@ -174,8 +200,8 @@ elif kf == 5:
             f.write("Parezi!" + "\n")
             p+=1
         else:
-            print("Neparezi!")
-            f.write("Neparezi!" + "\n")
+            print("Nepareizi!")
+            f.write("Nepareizi!" + "\n")
             n+=1
     print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
     f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")        
@@ -187,12 +213,12 @@ elif kf == 6:
         atb =float(input("Diametra garums ir: "))
         f.write("Diametra garums ir: " + str(atb) + "\n")
         if atb == e+e:
-            print("Parezi!")
-            f.write("Parezi!" + "\n")
+            print("Pareizi!")
+            f.write("Pareizi!" + "\n")
             p+=1
         else:
-            print("Neparezi!")
-            f.write("Neparezi!" + "\n")
+            print("Nepareizi!")
+            f.write("Nepareizi!" + "\n")
             n+=1
     print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
     f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")        
@@ -204,12 +230,12 @@ elif kf == 7:
         atb =float(input("Riņķa līnijas garums ir: "))
         f.write("Riņķa līnijas garums ir: " + str(atb) + "\n")
         if atb == 2*3.14*e:
-            print("Parezi!")
-            f.write("Parezi!" + "\n")
+            print("Pareizi!")
+            f.write("Pareizi!" + "\n")
             p+=1
         else:
-            print("Neparezi!")
-            f.write("Neparezi!" + "\n")
+            print("Nepareizi!")
+            f.write("Nepareizi!" + "\n")
             n+=1
     print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
     f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")           
@@ -223,12 +249,12 @@ elif kf == 8:
         atb =float(input("Laukums ir: "))
         f.write("Laukums ir:" + str(atb) + "\n")
         if atb == a+b/2*h:
-            print("Parezi!")
-            f.write("Parezi!" + "\n")
+            print("Pareizi!")
+            f.write("Pareizi!" + "\n")
             p+=1
         else:
-            print("Neparezi!")
-            f.write("Neparezi!" + "\n")
+            print("Nepareizi!")
+            f.write("Nepareizi!" + "\n")
             n+=1 
     print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
     f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")                            
