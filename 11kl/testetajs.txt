@@ -17,4 +17,4 @@ Iesaku izveidot datu pārbaudi.
 08.12.2022.
 Būtu labi, ja Tu turpinātu strādāt pie iepriekš norādītajām niansēm, pagaidām citu komentāru nav.
 10.12.2022.
-Ir jāuzraksta kursa darba apraksts READ.ME failā
+Ir jāuzraksta kursa darba apraksts README failā
