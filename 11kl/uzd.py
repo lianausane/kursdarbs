@@ -67,19 +67,6 @@ for r in k:
 
 kf = int(input("Kuru figūras funkciju apreķināsim: "))
 f.write("Kuru figūras funkciju apreķināsim: " + "\n")
-h = True
-"""
-while h:
-    try:
-        print(kf)
-        f = False  
-        break      
-    except: 
-        
-        print("Nepareizi levaddati")
-        print ("piemeram: Drikst levadit tikai 1, 2, 3, 4, 5")
-    break         
-"""
 uzd = int(input("Cik tādus uzdevumus pildisiet: "))
 f.write("Cik tādus uzdevumus pildisiet: " + "\n")
 
@@ -93,26 +80,26 @@ while f:
         print("Nepareizi levaddati")
         print ("piemeram: Drikst levadit tikai 1, 2, 3, 4, 5")
         
-def funkcija1():
-    if kf == 1:
-        for i in range(uzd):
-            a = random.randrange(1, apj)
-            b = random.randrange(1, apj)
-            print(f"Kāds ir taisnustūra laukums ja tā malu garums ir šāds: {a} , {b}")
-            f.write(f"Kāds ir taisnustūra laukums ja tā malu garums ir šāds: {a} , {b}" + "\n")
-            atb = int(input("Laukums ir: "))
-            f.write("Laukums ir: " + str(atb) + "\n")
-            if atb == a * b:
-                print("Pareizi!")
-                f.write("Pareizi!" + "\n")
-                p+=1
-            else:
-                print("Nepareizi!")
-                f.write("Nepareizi!" + "\n")
-                n+=1
+
+if kf == 1:
+    for i in range(uzd):
+        a = random.randrange(1, apj)
+        b = random.randrange(1, apj)
+        print(f"Kāds ir taisnustūra laukums ja tā malu garums ir šāds: {a} , {b}")
+        f.write(f"Kāds ir taisnustūra laukums ja tā malu garums ir šāds: {a} , {b}" + "\n")
+        atb = int(input("Laukums ir: "))
+        f.write("Laukums ir: " + str(atb) + "\n")
+        if atb == a * b:
+            print("Pareizi!")
+            f.write("Pareizi!" + "\n")
+            p+=1
+        else:
+            print("Nepareizi!")
+            f.write("Nepareizi!" + "\n")
+            n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%") 
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")           
-    elif kf == 2:
+elif kf == 2:
         for i in range(uzd):
             c = random.randrange(1, apj)
             d = random.randrange(1, apj)
@@ -130,7 +117,7 @@ def funkcija1():
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")
-    elif kf == 3:
+elif kf == 3:
         for i in range(uzd):
             e = random.randrange(1, apj)
             print(f"Kāds ir apļa laukums, ja tā radius ir {e} pi vertību ņem kā 3.14")
@@ -147,7 +134,7 @@ def funkcija1():
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")
-    elif kf == 4:
+elif kf == 4:
         for i in range(uzd):
             l = random.randrange(1, apj)
             k = random.randrange(1, apj)
@@ -165,7 +152,7 @@ def funkcija1():
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")        
-    elif kf == 5:
+elif kf == 5:
         for i in range(uzd):
             a = random.randrange(1, apj)
             b = random.randrange(1, apj)
@@ -184,7 +171,7 @@ def funkcija1():
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")        
-    elif kf == 6:
+elif kf == 6:
         for i in range(uzd):
             e = random.randrange(1, apj)
             print(f"Kāds ir apļa diamets, ja tā radius ir {e}")
@@ -201,7 +188,7 @@ def funkcija1():
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")        
-    elif kf == 7:
+elif kf == 7:
         for i in range(uzd):
             e = random.randrange(1, apj)
             print(f"Kāds ir riņķa līnijas garums, ja tā radius ir {e} pi vertību ņem kā 3.14")
@@ -218,7 +205,7 @@ def funkcija1():
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")           
-    elif kf == 8:
+elif kf == 8:
         for i in range(uzd):
             a = random.randrange(1, apj)
             b = random.randrange(1, apj)
