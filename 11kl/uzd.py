@@ -96,6 +96,7 @@ if kf == 1:
         else:
             print("Nepareizi!")
             f.write("Nepareizi!" + "\n")
+            print("Paeizā atbilde ir",a * b )
             n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%") 
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")           
@@ -114,6 +115,7 @@ elif kf == 2:
             else:
                 print("Nepareizi!")
                 f.write("Nepareizi!" + "\n")
+                print("Pareizā atbilde ir",c*d/2)
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")
@@ -131,6 +133,7 @@ elif kf == 3:
             else:
                 print("Nepareizi!")
                 f.write("Nepareizi!" + "\n")
+                print("Paeizā atbilde ir",e*e*3.14 )
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")
@@ -149,6 +152,7 @@ elif kf == 4:
             else:
                 print("Nepareizi!")
                 f.write("Nepareizi!" + "\n")
+                print("Paeizā atbilde ir",l+k*2 )
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")        
@@ -168,6 +172,7 @@ elif kf == 5:
             else:
                 print("Nepareizi!")
                 f.write("Nepareizi!" + "\n")
+                print("Paeizā atbilde ir", a+b+c)
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")        
@@ -185,6 +190,7 @@ elif kf == 6:
             else:
                 print("Nepareizi!")
                 f.write("Nepareizi!" + "\n")
+                print("Paeizā atbilde ir",e+e )
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")        
@@ -202,6 +208,7 @@ elif kf == 7:
             else:
                 print("Nepareizi!")
                 f.write("Nepareizi!" + "\n")
+                print("Paeizā atbilde ir", 2*3.14*e)
                 n+=1
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")           
@@ -221,6 +228,7 @@ elif kf == 8:
             else:
                 print("Nepareizi!")
                 f.write("Nepareizi!" + "\n")
+                print("Paeizā atbilde ir",a+b/2*h )
                 n+=1 
         print(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%")
         f.write(f"No {uzd} piemēriem pareizi bija {p} uzdevumi un nepareizs {n}. Kopumā sekmīgi tika veikti {p*100/uzd}%" + "\n")                            
