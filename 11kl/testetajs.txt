@@ -18,3 +18,4 @@ Iesaku izveidot datu pārbaudi.
 Būtu labi, ja Tu turpinātu strādāt pie iepriekš norādītajām niansēm, pagaidām citu komentāru nav.
 10.12.2022.
 Ir jāuzraksta kursa darba apraksts README failā
+Liāna - jau pivienoju aprakstu README failā
